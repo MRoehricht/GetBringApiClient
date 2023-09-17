@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<Version>1.0.0</Version>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Description>An API client for creating and maintaining shopping lists</Description>
+	<Title>GetBring API-Client</Title>
+	<Authors>MRoehricht</Authors>
+	<Company />
+	<PackageProjectUrl>https://github.com/MRoehricht/GetBringApiClient</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/MRoehricht/GetBringApiClient</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
+	<NeutralLanguage>en</NeutralLanguage>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageReadmeFile>Readme.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
