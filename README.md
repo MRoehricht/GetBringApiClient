@@ -10,3 +10,5 @@ Version 1.0.0:
  - RecentlyListItem
  - RemoveListItem
  - ToggleListItem
+
+[NuGet](https://www.nuget.org/packages/GetBringApiClient/1.0.0)
